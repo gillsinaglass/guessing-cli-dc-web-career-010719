@@ -1,10 +1,10 @@
 def run_guessing_game
-  user_guess = nil
+  my_guess = nil
 
-while user_guess != "exit"
+while my_guess != "exit"
 puts "Guess a number between 1 and 6."
 
-  user_guess = gets.chomp
+  my_guess = gets.chomp
   computer_guess = rand(1..6)
 
   if user_guess.to_i == computer_guess
