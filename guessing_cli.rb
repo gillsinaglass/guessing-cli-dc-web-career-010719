@@ -7,10 +7,10 @@ puts "Guess a number between 1 and 6."
   my_guess = gets.chomp
   generated_guess = rand(1..6)
 
-  if my_guess.to_i == computer_guess
+  if my_guess.to_i == generated_guess
     puts "You guessed the correct number!"
-  elsif user_guess.to_i != computer_guess
-    puts "The computer guessed #{computer_guess}."
+  elsif my_guess.to_i != generated_guess
+    puts "The computer guessed #{generated_guess}."
   end
 end
 puts "Goodbye!"
