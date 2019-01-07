@@ -1,7 +1,7 @@
 def run_guessing_game
   my_guess = nil
 
-while user_guess != "exit"
+while guess != "exit"
 puts "Guess a number between 1 and 6."
 
   my_guess = gets.chomp
